@@ -8,8 +8,8 @@ run on raptor so people can all connect.
         boxers in your hands. 
 
 player class: health, stats, inventory, abilities, hunger
-        stats: endurance, strength, agility, autism level, benStat(AholeStat), coolness
-        if name is alex bag, max stats from the start
+        stats: endurance, strength, agility, autism level, benStat(AholeStat), coolness, accuracy (1-100)
+        if name is alex bag, max stats from the start + his laptop
         autism: higher level = less map awareness (when moved, move the distance asked plus a random
                 integer, proportional to the autism)
                 when opening the bag, you randomly lose items, and you take an extra turn to search the bag
@@ -27,6 +27,7 @@ mob class: drop all items
         boolean value isBoss
         mobs can only spawn in certain places (cant move)
         lecturer timed boss (disappeares at the end of the hour, "Poof! He went on strike. See him next week :D"
+        once all bosses are beaten, headmaster (dean) appears.
 
 mob list class:
 
@@ -39,10 +40,12 @@ map: canterbury campus (including parkwood).
         each building/area can have different mobs, and a boss
         raid houses for loot
         rutherford/eliot is the prison: area boss prison warden (rutherford warden/secret boss is James, surrounded by empty wok bowls, mobs are brain-dead prisoners and wok bar workers.
+        every section of map is 100x100. (coordanites)
+        whole map is based on coords, each section has coords too
 
 items: all item objects are stored in an array list
         bobs cool tophat: if while you wear it you speak to a ben, they turn into a bob and gain powerlevel
-        alex's laptop: 
+        alex's laptop: causes confusion on everyone. including himself
         the lecturer microphone: can use it as a weapon but will fail 50% of the time
         sds: potato with some wires: can be crafted and used as projectiles
         frazier's hat: useless but really cool.
