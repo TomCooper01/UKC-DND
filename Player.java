@@ -30,6 +30,7 @@ public class Player
                 put("Aholeness", rand.nextInt(10));
                 put("Coolness", rand.nextInt(10));
                 put("Accuracy", rand.nextInt(10));
+		put("Gold", 100);
             }
         };
         if (autists.contains(playerName.toLowerCase())) {
