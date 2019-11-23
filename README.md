@@ -1,5 +1,4 @@
 # UKC-DND
-cunt.
 Made when Tom and Sam got drunk...
 
 run on raptor so people can all connect. 
