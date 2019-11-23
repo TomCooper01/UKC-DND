@@ -1,4 +1,5 @@
 # UKC-DND
+cunt.
 Made when Tom and Sam got drunk...
 
 run on raptor so people can all connect. 
@@ -19,6 +20,9 @@ player class: health, stats, inventory, abilities, hunger
         inventory: collect bags, decides inventory size/weight capacity, also stats affect this.
         it matters what you kill mobs with, depending on what you use different stats increase
         ability Balls Tingle: 
+        inner monologue to start: "Shit! I'm late for my lecture". can wonder to get a hint on next step.
+            this is like a tutorial. it babysits you till you get to the main campus, then the game opens up
+            like every good rpg.
         
 
 connected players class:
@@ -54,5 +58,6 @@ items: all item objects are stored in an array list
         james' wok bowl: if thomas comes into contact, dies of spice poisoning. if equiped you randomly hit walls (move random)
         The Emachine 1000: god tier weapon. 1 hit kills any enemy but falls apart unless ubuntu is equiped alongside
         Ryans taxi: depending on autism stats, it may transport you across the map for free. CAUTION it may be jimmy.
-        john's car bumper: can be used without fear of autism but the enemy contracts autism (+100) when hit.
+        john's car bumper: can be used without fear of autism but the enemy contracts autism (+100) when hit. 
+            no bag can hold this item, unless you are john, then you dont need a bag. can dig a hole to hide itself
         connor's tuna pasta bake: smells funny. give +10% max Health
