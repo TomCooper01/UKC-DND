@@ -9,6 +9,9 @@ run on raptor so people can all connect.
         boxers in your hands. 
 
 player class: health, stats, inventory, abilities, hunger
+        hunger constantly falls as you play, if the game goes online you can have your character
+                hibernate while you're offline so you dont lose hunger/health. if you dont the character
+                can starve while you're gone.
         stats: endurance, strength, agility, autism, Aholeness, coolness, accuracy, perception, intelligence?
         if name is alex bag, max stats from the start + his laptop
         endurance: no max, increasing increases max hunger, health by set values
