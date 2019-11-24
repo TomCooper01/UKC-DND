@@ -10,7 +10,7 @@ class Item
         this.name = name;
         this.itemID = itemID;
         this.weight = weight;
-        this.size = weight;
+        this.size = size;
     }
 
     public String getName() { return name; }
