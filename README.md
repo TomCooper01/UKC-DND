@@ -2,6 +2,8 @@
 Made when Tom and Sam got drunk...
 --- at the start of the line means the idea has probably been superceded and should be deleted.
 
+idea for making sections, like a level editor for text games. windows form where you input stuff and it formats it into the desired format. makes for faster section making
+
 run on raptor so people can all connect. 
         depending on the person logging in, you may or may not be able to see the autism stat.
         Rated R value (Allowed to f the courses, but you become more autistic and a knight can appear.
