@@ -19,7 +19,7 @@ public class Player
     public Player() 
     {
         inventory = new ArrayList<Item>();
-        Item fists = new Item("fists", "0001", 0.0, 0.0);
+        Item fists = new Item("fists", "0001", "Your hands count as weapons too, right?", 0.0, 0.0);
         equipped = new HashMap<String, Item>(7) {
 			private static final long serialVersionUID = 1L;
 			{
@@ -71,8 +71,6 @@ public class Player
      */
     public void setHealth(int i) { playerHealth = i; }
     public void setHunger(int i) { playerHunger = i; }
-
-
 
     /**
      * reduce players hunger/health by the given amount, minimum 0
