@@ -12,7 +12,7 @@ public class Item
         this.itemID = itemID;
         this.desc = desc;
         this.weight = weight;
-        this.size = weight;
+        this.size = size;
     }
 
     /**
