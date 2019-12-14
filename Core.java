@@ -12,11 +12,17 @@ class Core
         while (wantsToDie == false)
         {
             String[] inp = scan.nextLine().toLowerCase().split(" ");
-            if (inp[0] == "go" || inp[0] == "g")
+            if (inp[0].equals("go") || inp[0].equals("g"))
             {
                 // player1.move(inp[1]);
                 // see if we can move to inp[1]
-            } else if (inp[0] == "quit")
+            } else if (inp[0].equals("grab"))
+            {
+                // player1.grab(inp[1]);
+            } else if (inp[0].equals("look"))
+            {
+                
+            } else if (inp[0].equals("quit"))
             {
                 wantsToDie = true;
             }
