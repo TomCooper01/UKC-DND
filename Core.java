@@ -4,13 +4,15 @@ class Core
 {
     public Boolean wantsToDie;
 
-    public static void main(String[] args) {
+    public void Run()
+    {
+        Scanner scan = new Scanner(System.in);
         Player player1 = new Player();
         System.out.println();
         wantsToDie = false;
         while (wantsToDie == false)
         {
-            String[] inp = scan.nextLine().toLowerCase().split(" ");
+            String[] inp = scan.next().toLowerCase().split(" ");
             if (inp[0].equals("go") || inp[0].equals("g"))
             {
                 // player1.move(inp[1]);
@@ -29,6 +31,7 @@ class Core
                 }
             } else if (inp[0].equals("quit"))
             {
+                scan.close();
                 wantsToDie = true;
             }
         }
