@@ -1,1 +1,3 @@
-"CricketBat","woodenCricketBat","Your average bas- I mean cricket bat. We're british after all ;)",5,4,3
+Item,"Cricket Bat","woodenCricketBat1","Your average bas- I mean cricket bat. We're british after all ;)",5,4,3
+Place,"Player's Room","place001","Your Uni dorm room.",objects("door"),exits(east("place002"))
+Place,"Hallway","place002","Your uni house in park woods.",objects("stairs"),exits(west("place001"),down("place003"))
